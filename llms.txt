@@ -1,0 +1,18 @@
+# seeded-random-utils
+
+> Deterministic random number generators (Mulberry32, Xoshiro128) with sampling, shuffle, weighted pick, and gaussian.
+
+Generate reproducible randomness from seed for tests and simulation. Two PRNGs: Mulberry32 (fast) and Xoshiro128 (better stats). Same seed → identical sequence; fork() for substreams.
+
+## API
+
+- `Mulberry32(seed)` — float(), int(min, max), pick(), shuffle(), sample(), gaussian(), fork()
+- `Xoshiro128(seed)` — same methods
+
+## Install
+
+```bash
+npm install seeded-random-utils
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

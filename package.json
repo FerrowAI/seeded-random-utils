@@ -1,0 +1,20 @@
+{
+  "name": "seeded-random-utils",
+  "version": "1.0.0",
+  "description": "Deterministic random number generators (Mulberry32, Xoshiro128) with sampling, shuffle, weighted pick, and gaussian",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["typescript", "zero-dependencies", "random", "seeded", "prng", "deterministic"],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
