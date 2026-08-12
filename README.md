@@ -1,4 +1,5 @@
 # seeded-random-utils
+![CI](https://github.com/FerrowAI/seeded-random-utils/actions/workflows/ci.yml/badge.svg)
 
 Deterministic random number generators (Mulberry32, Xoshiro128) with sampling, shuffle, weighted pick, and gaussian.
 
