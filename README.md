@@ -17,7 +17,7 @@ export class Xoshiro128 { similar methods }
 ## Install
 
 ```bash
-npm install seeded-random-utils
+npm install @ferrow/seeded-random-utils
 ```
 
 ## Quick Start

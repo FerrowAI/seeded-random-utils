@@ -12,7 +12,7 @@ Generate reproducible randomness from seed for tests and simulation. Two PRNGs: 
 ## Install
 
 ```bash
-npm install seeded-random-utils
+npm install @ferrow/seeded-random-utils
 ```
 
 Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai
